@@ -20,5 +20,5 @@ COPY ${JAR_FILE} app.jar
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
 
 #docker build -t maxiplux/calculator .
-#docker tag  2191a6158d87 maxiplux/calculator:1.0.1
-#docker push maxiplux/calculator:1.0.1
+#docker tag  356503c90822 maxiplux/calculator:1.0.3
+#docker push maxiplux/calculator:1.0.3

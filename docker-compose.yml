@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   web:
-    image: maxiplux/calculator:1.0.1
+    image: maxiplux/calculator:1.0.2
     #volumes:
     #  - ./composeexample:/code
     environment:
